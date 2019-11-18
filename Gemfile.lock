@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    openapi_comment (0.1.0)
+      to_simple_yaml (~> 1.0.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.13.0)
+    rake (10.5.0)
+    to_simple_yaml (1.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  minitest (~> 5.0)
+  openapi_comment!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
